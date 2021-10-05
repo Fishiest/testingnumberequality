@@ -4,23 +4,23 @@
 def checkinganswer():
     #Checking if the user meant what they meant
     if input() == "Y":
-        ()
+        () #Do nothing
     else:
         if input() == "N":
             getnumbers()
         else:
-            print ("Your answer to is that correct was not 'Y' or 'N', assuming 'N'.")
+            print ("Your answer to is that correct was not 'Y' or 'N', assuming 'N'.") #I was too dumb to figure out how to start this bit of code over
             checkinganswer()
 
 def checkansweragain():
     # Checking if the user meant what they meant: part two, electric boogaloo
     if input() == "Y":
-        ()
+        () #Do nothing
     else:
         if input() == "N":
             getnumbers()
         else:
-            print ("Your answer to is that correct was not 'Y' or 'N', assuming 'N'.")
+            print ("Your answer to is that correct was not 'Y' or 'N', assuming 'N'.") #I was too dumb to figure out how to start this bit of code over
             getnumbers()
 def getnumbers():
     print ("What will your first number be? (MUST BE NON WRITTEN AND WITHOUT COMMAS):")
