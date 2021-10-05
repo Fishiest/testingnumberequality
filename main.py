@@ -1,6 +1,14 @@
 
 #This is my first peice of python don't judge it :)
 
+def isgood():
+    print("Is my code good? [Y/N]")
+    if input() == "N":
+        print("Wrong")
+        isgood()
+    else:
+        print("Yes that is correct :)")
+
 def checkinganswer():
     #Checking if the user meant what they meant
     if input() == "Y":
@@ -45,3 +53,4 @@ def getnumbers():
 
 #haha this needs to be here otherwise the code will die
 getnumbers()
+isgood()
